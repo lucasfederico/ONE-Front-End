@@ -44,4 +44,60 @@
     display: flex;
     width: 23%;
 }
-/* hola */
+/* SECCION VIDEO */
+.videoSobre .container{
+    display: flex;
+    justify-content: center;
+
+}
+.videoSobre-sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.video{
+    flex-grow: 2;
+}
+.videoSobre-sobre-list{
+    flex-grow: 2;
+
+}
+/* PARTE RESPONSIVA */
+@media (max-width:768px) {
+.headerPrincipal .container{
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+}
+.headerPrincipal-nav{
+    flex-direction: column;
+}
+.contenidoPrincipal-cursos{
+    flex-direction: column;
+}
+.contenidoPrincipal-cursos-link{
+    width: 100%;
+}
+.rodapePrincipal-navMap-list{
+    height: auto;
+    flex-wrap: nowrap;
+}
+/* footer */
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rodapePrincipal-contatoForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.headerPrincipal-nav-link-app{
+    order: -1;
+}
+/* video */
+.videoSobre .container{
+    flex-direction: column;
+}
+}
